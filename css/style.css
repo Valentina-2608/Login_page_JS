@@ -169,4 +169,14 @@ footer p{
 
 .content h1{
     color:#951A3D;
+    text-align:center;
+}
+
+.text{
+    width:600px;
+    height:500px;
+    margin-left:170px;
+    text-indent:20px;
+    font-size:17px;
+    line-height: 25px;
 }
