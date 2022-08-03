@@ -31,6 +31,19 @@ header h1{
 }
 
 
+.navigation {float:left;
+margin-left:70px;
+margin-top:45px;}
+.navigation li{
+    display:inline-block;
+    margin-left:30px;}
+.navigation a{
+    color:black;
+    text-decoration: none;
+    font-size:20px;
+    font-weight:bold;
+}
+
 .block_login{
     width:980px;
     height:700px;
@@ -84,6 +97,13 @@ form .info{
     font-weight:bold;
 }
 form input[type="text"]{
+    margin-top:20px;
+    height:25px;
+    border-radius:5px;
+    border:none;
+}
+
+form input[type="password"]{
     margin-top:20px;
     height:25px;
     border-radius:5px;
