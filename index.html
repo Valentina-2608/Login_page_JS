@@ -5,6 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
+	
 
 </head>
 <body>
@@ -12,16 +13,23 @@
 		<header>
 			<img src="img/logo.png" width="150px">
 			<h1>Login page</h1>
+			<nav class="navigation">
+				<ul>
+					<li><a href="#">Login page</a></li>
+					<li><a href="#">Registration page</a></li>
+				</ul>
+			</nav>
 		</header>
 		<div class="block_login">
 		<img src="img/admin.jpg" width="500px">
 		<div class="login_form">
 		<h2>Login form</h2>
+		
 		<form>
 		<div class="info">Enter your Email</div>
 		<input type="text" id="user_email" size="40">
 		<div class="info">Enter your Password</div>
-		<input type="text" id="user_password" size="40">
+		<input type="password" id="user_password" size="40">
 		<input type="button" id="login_btn" value="Log in">
 		<div class="info">Not a member? <span><a href="#">Sign up</a></span></div>
 		</form>
@@ -30,7 +38,6 @@
 		
 		</div>
 	</div>
-	
-
+	<script src="script.js"></script>
 </body>
 </html>
