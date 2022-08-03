@@ -140,3 +140,33 @@ footer p{
     margin-top:20px;
     font-weight:bold;
 }
+
+
+/* Homepage */
+#logout_btn{
+    width:80px;
+    height:30px;
+    border-radius:5px;
+    border:none;
+    font-weight:bold;
+    background-color:#25567B;
+    color:white;
+  }
+
+  #logout_btn:hover{
+    cursor:pointer;
+    box-shadow:3px 3px 7px #62B1D0;
+  }
+
+  .content{
+    width:980px;
+    height:700px;
+    position:absolute;
+    top:150px;
+    left:0px;
+    background-color:#F6F1F3;
+}
+
+.content h1{
+    color:#951A3D;
+}
