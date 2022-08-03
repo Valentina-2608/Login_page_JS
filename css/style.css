@@ -48,15 +48,15 @@ header h1{
 }
 
 .greeting{
-    width:300px;
+    width:200px;
     height:20px;
     position:absolute;
-    top:5px;
-    left:650px;
+    top:10px;
+    left:690px;
     padding:5px;
     color:#951A3D;
     font-weight:bold;
-    background-color:yellow ;
+    text-align:right;
 }
 
 
