@@ -8,15 +8,15 @@ function loginUser(){
     let userPassword = document.getElementById('user_password').value;
    
     let userData = {
-     yourEmail: userEmail,
+        yourEmail: userEmail,
         yourPassword: userPassword
     }
 
     localStorage.setItem('userLogin', JSON.stringify(userData));
     window.location.href = "homepage.html";
 
-    function getData(){
-        let userGetData = localStorage.getItem('userLogin');
-    }
-
 }
+let new_link = document.querySelector('.new_link');
+new_link.addEventListener('click',function(){
+    alert('Please, fill out the form');
+})
