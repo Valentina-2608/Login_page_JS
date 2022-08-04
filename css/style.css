@@ -34,7 +34,7 @@ header h1{
 .navigation {
     position:absolute;
     top:45px;
-    left:430px;
+    left:360px;
 }
 
 .navigation li{
@@ -47,12 +47,14 @@ header h1{
     font-weight:bold;
 }
 
+
+
 .greeting{
     width:200px;
     height:20px;
     position:absolute;
     top:10px;
-    left:690px;
+    left:740px;
     padding:5px;
     color:#951A3D;
     font-weight:bold;
@@ -169,12 +171,12 @@ footer p{
     color:white;
   }
 
-  #logout_btn:hover{
+#logout_btn:hover{
     cursor:pointer;
     box-shadow:3px 3px 7px #62B1D0;
-  }
+}
 
-  .content{
+.content{
     width:980px;
     height:700px;
     position:absolute;
