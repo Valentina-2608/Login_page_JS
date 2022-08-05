@@ -198,3 +198,23 @@ footer p{
     font-size:17px;
     line-height: 25px;
 }
+
+
+/* Registration */
+
+
+.block_registration{
+    width:980px;
+    height:700px;
+    position:absolute;
+    top:150px;
+    left:0px;
+}
+
+
+.block_registration img{
+    position: absolute;
+    top:180px;
+    left:350px;
+    opacity:0.6;
+}
