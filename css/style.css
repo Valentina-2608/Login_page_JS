@@ -89,10 +89,29 @@ header h1{
 
 }
 
+.registration_form{
+    width:400px;
+    height:450px;
+    position:absolute;
+    top:80px;
+    left:270px;
+    background-color:#C8C8C8;
+    border-radius:10px;
+    box-shadow:10px 10px 10px #25567B;
+
+}
+
 .login_form h2{
     text-align:center;
     color:#25567B;
 }
+
+.registration_form h2{
+    text-align:center;
+    color:#25567B;
+}
+
+
 
 
 form {
@@ -141,6 +160,23 @@ form input[type="password"]{
 #login_btn:hover{
     cursor:pointer;
 }
+
+#sign_btn{
+    margin-top:25px;
+    margin-left:80px;
+    width:140px;
+    height:30px;
+    border-radius:5px;
+    border:none;
+    font-weight:bold;
+    background-color:#B95055;
+  
+  }
+  
+  #sign_btn:hover{
+      cursor:pointer;
+  }
+  
 
 
 footer{
