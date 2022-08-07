@@ -91,9 +91,9 @@ header h1{
 
 .registration_form{
     width:400px;
-    height:450px;
+    height:470px;
     position:absolute;
-    top:80px;
+    top:60px;
     left:270px;
     background-color:#C8C8C8;
     border-radius:10px;
@@ -253,7 +253,7 @@ footer p{
 
 .block_registration img{
     position: absolute;
-    top:180px;
+    top:200px;
     left:350px;
     opacity:0.6;
 }
