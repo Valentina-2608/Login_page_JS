@@ -1,13 +1,47 @@
 ﻿<!DOCTYPE HTML>
 <html>
 <head>
-	<title>Main page</title>
+	<title>Login page</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
+	
 
 </head>
 <body>
-Hello
+	<div class="main">
+		<header>
+			<img src="img/logo.png" width="150px">
+			<h1>Login page</h1>
+			<nav class="navigation">
+				<ul id="list">
+					<li><a href="#">Login page</a></li>
+					<li><a href="registration.html">Registration page</a></li>
+					<li><a class="new_link" href="#">Homepage</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="block_login">
+		<img src="img/admin.jpg" width="500px">
+		<div class="login_form">
+		<h2>Login form</h2>
+		
+		<form>
+		<div class="info">Enter your Email</div>
+		<input type="text" id="user_email" size="40">
+		<div class="info">Enter your Password</div>
+		<input type="password" id="user_password" size="40">
+		<input type="button" id="login_btn" value="Log in">
+		<div class="info">Not a member? <span><a href="registration.html">Sign up</a></span></div>
+		</form>
+
+		</div>
+		
+		</div>
+		<footer>
+			<p>2022. Login_page_JS. All pictures were found in Google and on various sites.</p>
+		</footer>
+	</div>
+	<script src="script.js"></script>
 </body>
 </html>
