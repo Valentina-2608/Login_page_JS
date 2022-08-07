@@ -126,6 +126,9 @@ form .info{
     margin-top:20px;
 }
 
+.info span{
+    font-weight:bold;
+}
 
 .info a{
     color:black;
